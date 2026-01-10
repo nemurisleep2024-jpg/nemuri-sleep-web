@@ -26,6 +26,15 @@ const Contacto = () => {
             <p className="mt-4 text-sm text-muted-foreground">
               Respondo personalmente en un plazo de 24-48h.
             </p>
+            <p className="mt-4 text-sm text-muted-foreground">
+              También puedes escribirme a{' '}
+              <a 
+                href="mailto:info@nemurisleep.es" 
+                className="text-primary hover:underline font-medium"
+              >
+                info@nemurisleep.es
+              </a>
+            </p>
           </div>
 
           <div className="p-6 rounded-2xl border border-border bg-secondary/50 mb-12">
