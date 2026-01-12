@@ -1,13 +1,10 @@
 import Hero from '@/components/Hero';
 import Section from '@/components/Section';
-import CardGrid from '@/components/CardGrid';
-import Card from '@/components/Card';
 import CTASection from '@/components/CTASection';
 import FeatureList from '@/components/FeatureList';
 import StepCard from '@/components/StepCard';
 import WhatsAppButton from '@/components/WhatsAppButton';
-import { Button } from '@/components/ui/button';
-import { Calculator } from 'lucide-react';
+import SleepCalculator from '@/components/SleepCalculator';
 
 const SuenoProductividadLaboral = () => {
   const costs = [
@@ -64,26 +61,7 @@ const SuenoProductividadLaboral = () => {
         </div>
       </Section>
 
-      <Section title="Calculadora del Sueño Nemuri (CSN)">
-        <div className="max-w-3xl">
-          <p className="text-lg text-muted-foreground mb-6">
-            Una herramienta sencilla para que evalúes cómo está tu descanso y recibas recomendaciones personalizadas iniciales.
-          </p>
-          <p className="text-lg text-muted-foreground mb-8">
-            Responde unas preguntas sobre tu sueño y hábitos, y obtén un informe con puntos de mejora.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="btn-outline" disabled>
-              <Calculator className="w-5 h-5 mr-2" />
-              Abrir calculadora (CSN) - Próximamente
-            </Button>
-            <WhatsAppButton
-              message="Hola, he hecho la calculadora CSN y me gustaría analizar mis resultados."
-              label="Analizar mis datos"
-            />
-          </div>
-        </div>
-      </Section>
+      <SleepCalculator />
 
       <CTASection
         title="¿Mejoramos el descanso de tu equipo?"
