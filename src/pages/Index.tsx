@@ -98,6 +98,12 @@ const Index = () => {
               'Empresas y equipos de trabajo',
             ]}
           />
+          
+          <div className="mt-8 p-6 rounded-2xl bg-primary/10 border border-primary/20">
+            <p className="text-lg font-medium text-foreground italic text-center">
+              "No se trata de dormir perfecto, sino de que el descanso deje de ser un problema y se convierta en un recurso estable."
+            </p>
+          </div>
         </div>
       </Section>
 
