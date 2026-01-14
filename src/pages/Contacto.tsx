@@ -1,7 +1,7 @@
 import Hero from '@/components/Hero';
 import Section from '@/components/Section';
 import WhatsAppButton from '@/components/WhatsAppButton';
-import { Mail, Phone } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 const Contacto = () => {
   return (
@@ -42,6 +42,19 @@ const Contacto = () => {
               >
                 <Phone className="w-5 h-5" />
                 638 119 948
+              </a>
+            </div>
+
+            {/* Dirección física */}
+            <div className="pt-4">
+              <a 
+                href="https://maps.google.com/?q=Calle+Manuel+Melgar+12,+14500+Puente+Genil,+Córdoba,+España"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-foreground hover:text-primary transition-colors font-medium"
+              >
+                <MapPin className="w-5 h-5" />
+                Calle Manuel Melgar 12, 14500 Puente Genil, Córdoba, España
               </a>
             </div>
           </div>
