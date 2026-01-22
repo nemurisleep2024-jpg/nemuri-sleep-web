@@ -48,7 +48,7 @@ const Contacto = () => {
             {/* Dirección física */}
             <div className="pt-4">
               <a 
-                href="https://maps.google.com/?q=Calle+Manuel+Melgar+12,+14500+Puente+Genil,+Córdoba,+España"
+                href="https://maps.app.goo.gl/KqpYEmzorJN1NaKe6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-foreground hover:text-primary transition-colors font-medium"
