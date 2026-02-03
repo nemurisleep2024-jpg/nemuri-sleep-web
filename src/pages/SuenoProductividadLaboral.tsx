@@ -4,7 +4,6 @@ import CTASection from '@/components/CTASection';
 import FeatureList from '@/components/FeatureList';
 import StepCard from '@/components/StepCard';
 import WhatsAppButton from '@/components/WhatsAppButton';
-import SleepCalculator from '@/components/SleepCalculator';
 
 const SuenoProductividadLaboral = () => {
   const costs = [
@@ -60,8 +59,6 @@ const SuenoProductividadLaboral = () => {
           />
         </div>
       </Section>
-
-      <SleepCalculator />
 
       <CTASection
         title="¿Mejoramos el descanso de tu equipo?"

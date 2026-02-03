@@ -10,6 +10,7 @@ const navLinks = [
   { label: 'Estudio y oposiciones', href: '/sueno-estudio-oposiciones' },
   { label: 'Deporte', href: '/sueno-rendimiento-deportivo' },
   { label: 'Empresas', href: '/sueno-productividad-laboral' },
+  { label: 'Calculadora', href: '/calculadora-sueno-empresas' },
   { label: 'NESA', href: '/nesa-x-signal' },
   { label: 'Método', href: '/metodo-nemuri' },
   { label: 'Charlas', href: '/charlas-formaciones' },
