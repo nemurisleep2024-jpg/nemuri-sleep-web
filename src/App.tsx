@@ -10,6 +10,7 @@ import SuenoAdulto from "./pages/SuenoAdulto";
 import SuenoEstudioOposiciones from "./pages/SuenoEstudioOposiciones";
 import SuenoRendimientoDeportivo from "./pages/SuenoRendimientoDeportivo";
 import SuenoProductividadLaboral from "./pages/SuenoProductividadLaboral";
+import CalculadoraSueno from "./pages/CalculadoraSueno";
 import NesaXSignal from "./pages/NesaXSignal";
 import MetodoNemuri from "./pages/MetodoNemuri";
 import CharlasFormaciones from "./pages/CharlasFormaciones";
@@ -36,6 +37,7 @@ const App = () => (
             <Route path="/sueno-estudio-oposiciones" element={<SuenoEstudioOposiciones />} />
             <Route path="/sueno-rendimiento-deportivo" element={<SuenoRendimientoDeportivo />} />
             <Route path="/sueno-productividad-laboral" element={<SuenoProductividadLaboral />} />
+            <Route path="/calculadora-sueno-empresas" element={<CalculadoraSueno />} />
             <Route path="/nesa-x-signal" element={<NesaXSignal />} />
             <Route path="/metodo-nemuri" element={<MetodoNemuri />} />
             <Route path="/charlas-formaciones" element={<CharlasFormaciones />} />
